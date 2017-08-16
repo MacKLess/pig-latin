@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="js/scripts.js" type="text/javascript"></script>
+    <meta charset="utf-8">
+    <title>Pig latin Converter</title>
+  </head>
+  <body>
+    <h1>Pig Latin Translator</h1>
+    <br>
+    <div class="container">
+      <form id="userInput">
+        <div class="form-group">
+          <label for="inputSentence">Enter a Sentence to Convert to Pig Latin</label>
+          <br>
+          <input id="inputSentence" type="text">
+        </div>
+        <br>
+        <button type="submit" name="btn">Here we go!</button>
+      </form>
+      <div id="output" class="well">
+        <p>Your original Sentence was:<span id="inputSentence"></span></p>
+        <p>Your translated Sentence is: <span id="translation"></span></p>
+
+      </div>
+    </div>
+  </body>
+</html>
